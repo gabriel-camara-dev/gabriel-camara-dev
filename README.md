@@ -1,6 +1,6 @@
 # 👨‍💻 Gabriel Câmara - Fullstack Developer
 
-Olá! 👋 Sou Gabriel Câmara, desenvolvedor fullstack de 20 anos do Rio de Janeiro, Brasil. Atualmente cursando Ciência da Computação na **Universidade Federal Fluminense (UFF)** e trabalhando como **Fullstack Developer** na **IN Junior**.
+Olá! 👋 Sou Gabriel Câmara, desenvolvedor fullstack de 21 anos do Rio de Janeiro, Brasil. Atualmente cursando Ciência da Computação na **Universidade Federal Fluminense (UFF)** e trabalhando como **Fullstack Developer** na **IN Junior**.
 
 Apaixonado por transformar ideias em código e criar soluções significativas através da tecnologia. Especializado em desenvolvimento web fullstack com foco em Node.js, React e arquiteturas escaláveis.
 
