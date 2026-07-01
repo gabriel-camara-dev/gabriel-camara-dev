@@ -27,7 +27,7 @@ Frontend moderno com foco em experiência do usuário, organização de código 
 - Estrutura preparada para evolução contínua
 
 **Stack:**
-- React / Next.js
+- React / Vite
 - TypeScript
 - Tailwind/CSS moderno
 
