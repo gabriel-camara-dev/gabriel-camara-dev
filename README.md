@@ -1,155 +1,146 @@
-# 👨‍💻 Gabriel Câmara - Fullstack Developer
+# 👨‍💻 Gabriel Câmara — Full Stack Developer
 
-Olá! 👋 Sou Gabriel Câmara, desenvolvedor fullstack de 21 anos do Rio de Janeiro, Brasil. Atualmente cursando Ciência da Computação na **Universidade Federal Fluminense (UFF)** e trabalhando como **Fullstack Developer** na **IN Junior**.
+Olá! 👋 Sou **Gabriel do Câmara Castilho Alvares**, desenvolvedor full stack do Rio de Janeiro - Brasil, cursando **Ciência da Computação (UFF)**.
 
-Apaixonado por transformar ideias em código e criar soluções significativas através da tecnologia. Especializado em desenvolvimento web fullstack com foco em Node.js, React e arquiteturas escaláveis.
+Atuo no desenvolvimento de aplicações web fullstack com foco em **Node.js, Fastify, NestJS, React, Next.js, Prisma e bancos relacionais**, aplicando boas práticas de arquitetura, testes e qualidade de software.
+
+Tenho experiência prática com:
+- construção de APIs REST e integrações externas
+- modelagem e otimização de banco de dados
+- testes automatizados (Vitest/Jest)
+- comunicação com cliente e levantamento de requisitos
+- liderança técnica e gestão de entregas
 
 ---
 
 ## 🚀 Projetos em Destaque
 
-### 🔵 [Live Chat - Sistema de Chat em Tempo Real](https://github.com/gabriel-camara-dev/live-chat)
+### 🟣 [Onde Hoje Frontend](https://github.com/gabriel-camara-dev/onde-hoje-frontend)
 
-Um sistema de chat em tempo real completo usando WebSocket, com interface moderna e sistema de logs detalhado.
+Frontend moderno com foco em experiência do usuário, organização de código e escalabilidade.
 
-**Tecnologias:**
+**Principais funcionalidades:**
+- Interface responsiva e componentizada
+- Fluxos de autenticação e sessão
+- Consumo de APIs com tratamento de estado/erro
+- Formulários com validação
+- Estrutura preparada para evolução contínua
 
-- Frontend: React, TypeScript, Socket.io-client, CSS Modules
-- Backend: Node.js, Fastify, Socket.io, TypeScript
-- Features: Mensagens instantâneas, indicador de digitação, sistema de ACK, painel de logs em tempo real
-
-**Destaques:**
-
-- Arquitetura client-server robusta com Socket.io
-- Interface responsiva com animações suaves
-- Sistema de logging completo para debug
-- Gerenciamento de estado de digitação em tempo real
+**Stack:**
+- React / Next.js
+- TypeScript
+- Tailwind/CSS moderno
 
 ---
 
-### 🟢 [Social Media API - Backend Completo de Rede Social](https://github.com/gabriel-camara-dev/social-media-api-backend)
+### 🔵 [Role Hoje](https://github.com/gabriel-camara-dev/role-hoje)
 
-API RESTful completa para rede social com autenticação JWT, posts, comentários, sistema de seguidores e notificações em tempo real.
+Projeto fullstack voltado à descoberta e gestão de roles/eventos, com foco em usabilidade e manutenção.
 
-**Tecnologias:**
+**Principais funcionalidades:**
+- Catálogo/exploração de eventos
+- Filtros de busca
+- Fluxos de autenticação
+- Integração entre camadas frontend e backend
+- Base estruturada para novas features
 
-- Backend: Fastify, Prisma ORM, PostgreSQL, TypeScript
-- Autenticação: JWT + Refresh Tokens
-- Real-time: WebSocket para notificações
-- Storage: Upload e compressão de imagens
+---
 
-**Funcionalidades:**
+### 🟢 [Social Media API Backend](https://github.com/gabriel-camara-dev/social-media-api-backend)
 
-- 🔐 Sistema de autenticação completo com refresh tokens
-- 👥 Sistema de seguidores (follow/unfollow)
-- 📝 CRUD de posts, comentários e reposts
-- ❤️ Sistema de curtidas
-- 🔔 Notificações em tempo real via WebSocket
-- 🖼️ Upload e compressão automática de imagens
-- 🔒 Perfis públicos/privados
-- 📊 Auditoria de login com IP e navegador
+Backend completo de rede social, com arquitetura robusta e regras de negócio bem definidas.
 
-**Arquitetura:**
+**Principais funcionalidades:**
+- Autenticação JWT com refresh tokens
+- Sistema de seguidores (follow/unfollow)
+- CRUD de posts, comentários e reposts
+- Sistema de curtidas
+- Notificações em tempo real via WebSocket
+- Upload + compressão automática de imagens
+- Perfis públicos/privados
+- Auditoria de login com IP e navegador
 
-- Clean Architecture com Repository Pattern
-- Use Cases isolados para regras de negócio
-- Presenters para formatação de responses
+**Destaques técnicos:**
+- Clean Architecture + Repository Pattern
+- Use cases isolados por domínio
+- Presenters para padronização de resposta
 - Testes unitários com Vitest
+- Fastify + Prisma + PostgreSQL + TypeScript
 
 ---
 
-### 🟡 [Sistema de Gestão de Processos Jurídicos](https://github.com/gabriel-camara-dev/eliana-lima-front)
+### 🧱 [Template Backend Nest](https://github.com/gabriel-camara-dev/template-backend-nest)
 
-Sistema fullstack para gestão e consulta de processos jurídicos com upload de documentos e busca avançada.
+Template backend production-ready para acelerar projetos com padrão arquitetural sólido.
 
-**Tecnologias:**
+**Recursos principais:**
+- Arquitetura modular escalável
+- JWT + Refresh Token
+- DTOs e validação robusta
+- Tratamento global de exceções
+- Base para testes unitários/integrados
+- Estrutura pronta para ambientes reais
 
-- Frontend: React, TypeScript, React Hook Form, Zod
-- Backend: Node.js, PostgreSQL
-- Features: Upload de PDFs, busca avançada, paginação
-
-**Funcionalidades:**
-
-- 📄 Upload de documentos (voto e sentença)
-- 🔍 Busca por múltiplos filtros (classe, julgo, tipo)
-- 📊 Paginação inteligente
-- 🔐 Sistema de autenticação por roles (Admin/User)
-- 📥 Download de documentos
+**Stack:**
+- NestJS + TypeScript
+- ORM + PostgreSQL
+- Segurança e boas práticas de API
 
 ---
 
 ### 🔴 [Template Frontend React](https://github.com/gabriel-camara-dev/template-frontend)
 
-Template profissional e escalável para projetos React com TypeScript e todas as configurações prontas.
+Template frontend profissional para iniciar projetos com produtividade e padronização desde o dia 1.
 
-**Tecnologias:**
-
+**Recursos principais:**
 - React + TypeScript + Vite
 - Zustand para gerenciamento de estado
-- React Hook Form + Zod para validação
+- React Hook Form + Zod
 - Axios com interceptadores
-- Socket.io para real-time
-
-**Recursos:**
-
-- 🔐 Autenticação JWT com refresh tokens automático
-- 🔄 Interceptadores Axios configurados
-- 📦 Estrutura de pastas organizada
-- 🎨 CSS Modules
-- 🔌 WebSocket integrado
-- ⚡ Performance otimizada com Vite
+- Socket.io-client
+- Estrutura de pastas organizada e escalável
 
 ---
 
-### 🟣 [Template Backend Node.js](https://github.com/gabriel-camara-dev/Template-backend)
+## 📌 Outros Projetos Relevantes
 
-Template backend completo e production-ready com Fastify, seguindo as melhores práticas de arquitetura e segurança.
+### [Live Chat - Sistema de Chat em Tempo Real](https://github.com/gabriel-camara-dev/live-chat)
+Chat em tempo real com Socket.io, ACK de mensagens, indicador de digitação e painel de logs para observabilidade.
 
-**Tecnologias:**
+### [Sistema de Gestão de Processos Jurídicos](https://github.com/gabriel-camara-dev/eliana-lima-front)
+Sistema fullstack com upload/download de documentos, filtros avançados, autenticação por perfil e paginação.
 
-- Fastify + TypeScript
-- Prisma ORM + PostgreSQL
-- JWT Authentication
-- Zod para validação
-- Vitest para testes
-
-**Recursos:**
-
-- 🏗️ Clean Architecture com Repository Pattern
-- 🔐 Autenticação JWT com refresh tokens
-- 🔄 Interceptadores e middlewares configurados
-- 📝 Validação robusta com Zod
-- 🧪 Testes unitários e de integração
-- 📦 Estrutura modular e escalável
-- 🛡️ Rate limiting e segurança configurada
-- 🔌 Pronto para WebSocket/Socket.io
+### [Template Backend Node.js (Fastify)](https://github.com/gabriel-camara-dev/Template-backend)
+Template backend com Fastify + Prisma + JWT + Zod + Vitest, com foco em clean architecture e produção.
 
 ---
 
-## 💻 Stack Tecnológica
+## 💼 Experiência Profissional (Resumo)
 
-### Frontend
+### Desenvolvedor Full Stack / Gerente de Projetos — iNJunior
+**Ago 2024 - Jan 2026**
+- Desenvolvimento e manutenção de aplicações fullstack (TypeScript, Node.js, Fastify, React, Next.js, Prisma)
+- Estruturação de testes com Vitest/Jest, reduzindo falhas em produção
+- Integração com serviços externos (ex.: Asaas e Brevo)
+- Condução de reuniões com clientes, levantamento de requisitos e definição de escopo
+- Mentoria técnica para novos membros e padronização de boas práticas
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Analista de Sistemas — Mestra Informática e Tecnologia
+**Jan 2026 - Atual**
+- Atuação com backend corporativo em **SQL Server** e **Oracle (PL/SQL)**
+- Desenvolvimento/manutenção de APIs REST para sistemas internos
+- Criação e otimização de queries, procedures, functions, triggers e views
+- Evolução de sistemas legados com foco em performance e estabilidade
 
-### Backend
+---
 
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+## 🧠 Habilidades Técnicas
 
-### DevOps & Tools
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+**Frontend:** React, Angular, Next.js, Tailwind, JavaScript, TypeScript, HTML, CSS, Vite  
+**Backend:** Node.js, Fastify, Express, NestJS, Prisma, APIs REST, PostgreSQL, SQL Server, Oracle, MongoDB  
+**Testes:** Vitest, Jest  
+**DevOps & Ferramentas:** Docker, Linux, Git, CI/CD  
+**Metodologias:** Scrum, Kanban, comunicação com cliente, gestão de projetos
 
 ---
 
@@ -163,10 +154,11 @@ Template backend completo e production-ready com Fastify, seguindo as melhores p
 
 ## 📫 Contato
 
-- 📧 Email: [![Gmail](https://img.shields.io/badge/Gmail-galvares439%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:galvares439@gmail.com)
-- 💼 LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20C%C3%A2mara-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-c%C3%A2mara-b6883b2a1/)
-- 📸 Instagram: [![Instagram](https://img.shields.io/badge/Instagram-gabriel__camara_-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/gabriel__camara_)
+- 📧 Email: [galvares439@gmail.com](mailto:galvares439@gmail.com)
+- 💼 LinkedIn: [Gabriel Câmara](https://www.linkedin.com/in/gabriel-c%C3%A2mara-b68b01248/)
+- 🐙 GitHub: [gabriel-camara-dev](https://github.com/gabriel-camara-dev)
+- 📸 Instagram: [@gabriel__camara_](https://www.instagram.com/gabriel__camara_)
 
 ---
 
-💡 **Aberto para oportunidades e colaborações!** Sinta-se à vontade para explorar meus repositórios e entrar em contato.
+✨ **Aberto a oportunidades para Full Stack Developer e projetos desafiadores.**
