@@ -33,7 +33,7 @@ Frontend moderno com foco em experiência do usuário, organização de código 
 
 ---
 
-### 🔵 [Role Hoje](https://github.com/gabriel-camara-dev/role-hoje)
+### 🔵 [Onde Hoje Backend](https://github.com/gabriel-camara-dev/role-hoje)
 
 Projeto fullstack voltado à descoberta e gestão de roles/eventos, com foco em usabilidade e manutenção.
 
